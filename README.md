@@ -5,8 +5,8 @@ compatible with the Acquia hosting environment.
 
 **See Also**
 
-* [https://github.com/arnaud-lb/php-rdkafka](php-rdkafka)
-* [https://github.com/edenhill/librdkafka](librdkafka)
+* [php-rdkafka](https://github.com/arnaud-lb/php-rdkafka)
+* [librdkafka](https://github.com/edenhill/librdkafka)
 
 ## Building the Extension
 
