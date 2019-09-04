@@ -19,7 +19,7 @@ git clone https://github.com/christophersmith262/acquia-php-rdkafka.git
 Compile the PHP extension:
 
 ```
-make
+cd acquia-php-rdkafka; make
 ```
 
 ## Updating the Packages
