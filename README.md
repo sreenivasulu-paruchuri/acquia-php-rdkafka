@@ -13,7 +13,7 @@ compatible with the Acquia hosting environment.
 Clone the repository from the acquia server:
 
 ```
-git clone git@github.com:christophersmith262/acquia-php-rdkafka.git
+git clone https://github.com/christophersmith262/acquia-php-rdkafka.git
 ```
 
 Compile the PHP extension:
