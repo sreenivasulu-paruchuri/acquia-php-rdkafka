@@ -10,16 +10,10 @@ compatible with the Acquia hosting environment.
 
 ## Building the Extension
 
-Clone the repository from the acquia server:
+To build the extension for a given environment run the following command, replacing `<drush-alias>` with the drush alias for the environment.
 
 ```
-git clone https://github.com/christophersmith262/acquia-php-rdkafka.git
-```
-
-Compile the PHP extension:
-
-```
-cd acquia-php-rdkafka; make
+bash <(curl https://raw.githubusercontent.com/christophersmith262/acquia-php-rdkafka/master/compile.sh) @<drush-alias>
 ```
 
 ## Updating the Packages
