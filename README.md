@@ -32,3 +32,15 @@ To update the packages provided here run:
 ```
 make update-packages
 ```
+
+## Included Packages
+
+**Executable Code**
+
+* [php-rdkafka](https://github.com/arnaud-lb/php-rdkafka)
+* [librdkafka](https://github.com/edenhill/librdkafka)
+
+**Build Dependencies**
+
+* [m4](https://www.gnu.org/software/m4)
+* [autoconf](https://www.gnu.org/software/autoconf)
