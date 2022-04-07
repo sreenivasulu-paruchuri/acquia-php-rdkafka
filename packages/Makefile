@@ -6,7 +6,7 @@ php-rdkafka.tar.gz:
 	rm -rf php-rdkafka
 
 librdkafka.tar.gz:
-	git clone https://github.com/edenhill/librdkafka.git
+	git clone --branch v1.8.2 https://github.com/edenhill/librdkafka.git
 	tar cvfz librdkafka.tar.gz librdkafka/*
 	rm -rf librdkafka
 
