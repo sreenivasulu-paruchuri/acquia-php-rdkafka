@@ -1,7 +1,7 @@
 all: php-rdkafka.tar.gz librdkafka.tar.gz autoconf.tar.gz m4.tar.gz
 
 php-rdkafka.tar.gz:
-	git clone https://github.com/arnaud-lb/php-rdkafka.git
+	git clone --branch 5.x https://github.com/arnaud-lb/php-rdkafka.git
 	tar cvfz php-rdkafka.tar.gz php-rdkafka/*
 	rm -rf php-rdkafka
 
