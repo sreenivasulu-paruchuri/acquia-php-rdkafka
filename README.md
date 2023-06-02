@@ -13,7 +13,7 @@ compatible with the Acquia hosting environment.
 To build the extension for a given environment run the following command, replacing `<drush-alias>` with the drush alias for the environment.
 
 ```
-bash <(curl https://raw.githubusercontent.com/christophersmith262/acquia-php-rdkafka/master/remote-compile.sh) @<drush-alias>
+bash <(curl https://raw.githubusercontent.com/sreenivasulu-paruchuri/acquia-php-rdkafka/master/remote-compile.sh) @<drush-alias>
 ```
 
 ## Updating the Packages
